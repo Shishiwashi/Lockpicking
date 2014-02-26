@@ -22,12 +22,12 @@ public class DragRigidbody2D : MonoBehaviour
 	{
 		if (!Input.GetMouseButtonDown (0))
 		{
-			rigidbody2D.velocity = Vector2.zero;
+			transform.parent.rigidbody2D.velocity = Vector2.zero;
 			return;
 		}
 
 		RaycastHit2D hit = Physics2D.Raycast (mainCamera.ScreenToWorldPoint (Input.mousePosition), Vector2.zero, Mathf.Infinity, layerMask);
-		if(hit.transform == transform)
+		if(hit.transform == transform.parent)
 		{
 			if (!springJoint)
 			{
