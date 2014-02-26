@@ -37,6 +37,7 @@ public class Level : MonoBehaviour
 	
 	void EnterLevel()
 	{
+		Debug.Log("enter level");
 		Highlander.currentLevel = properties;
 		Application.LoadLevel("Game");
 	}

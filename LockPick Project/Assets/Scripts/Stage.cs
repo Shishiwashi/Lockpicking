@@ -3,10 +3,7 @@ using System.Collections;
 
 [System.Serializable] public class StageProperties
 {
-	public enum StageType
-	{
-		Slider, Password
-	}
-	
-	public StageType type = StageType.Slider;
+	public GameObject prefab;
+	public int totalKeys;
+	public Texture2D background;
 }
