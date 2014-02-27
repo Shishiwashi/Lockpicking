@@ -1,13 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\VictoryLine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\World.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody2D.cs" Line="47" Column="29" />
-      <File FileName="Assets\Scripts\StageManager.cs" Line="42" Column="19" />
-      <File FileName="Assets\Scripts\VictoryLine.cs" Line="22" Column="28" />
+      <File FileName="Assets\Scripts\LevelsManager.cs" Line="34" Column="4" />
       <File FileName="Assets\Scripts\Level.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Stage.cs" Line="8" Column="8" />
-      <File FileName="Assets\Scripts\Highlander.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ItemsPage.cs" Line="8" Column="23" />
+      <File FileName="Assets\Scripts\World.cs" Line="53" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
