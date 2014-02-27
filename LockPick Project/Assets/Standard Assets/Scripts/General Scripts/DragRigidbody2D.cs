@@ -12,6 +12,7 @@ public class DragRigidbody2D : MonoBehaviour
 
 	private SpringJoint2D springJoint;
 	private Camera mainCamera;
+	[System.NonSerialized] public GameObject go;
 	
 	void Start()
 	{
@@ -31,7 +32,9 @@ public class DragRigidbody2D : MonoBehaviour
 		{
 			if (!springJoint)
 			{
-				GameObject go = new GameObject ("Rigidbody2D Dragger");
+				go = new GameObject ("Rigidbody2D Dragger");
+				go.transform.parent = transform;
+				go.tag = "Dragger";
 				Rigidbody2D body = go.AddComponent ("Rigidbody2D") as Rigidbody2D;
 				springJoint = go.AddComponent ("SpringJoint2D") as SpringJoint2D;
 				body.isKinematic = true;

@@ -5,5 +5,6 @@ using System.Collections;
 {
 	public GameObject prefab;
 	public int totalKeys;
+	public float time = 20;
 	public Texture2D background;
 }
